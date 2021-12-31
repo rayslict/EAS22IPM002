@@ -1,0 +1,43 @@
+MEthods : 
+   Collection of statements which is going to perform some specific task.
+whenever you want to perform the task then you can call the method.
+Methods are reusable.
+
+    Predefined Methods       ----         Userdefined Method
+parseInt(), readLine(),                    
+parseDouble(), length(),
+ nextInt(), nextDouble()
+
+staticmethod   and   Non-static method
+
+sysntex:
+
+         return_type methodsName(arguments)
+
+                   1.method declaration    ------    void addtion();
+	 2. method Definiation  ------   void addition(){
+					statements....
+					}
+	 3. method calling   --------     addition();
+
+
+
+1.  with out return type and with out arguments   ----   void printSmaller()
+2.  with out return type and with  arguments    ----  void printSmaller(int a, int b)
+3.   with return type and with out arguments    ----  int printSmaller()
+4.   with return type and with  arguments    ----  int printSmaller(int a, double b, char c)
+
+
+
+
+Class  :  
+	Collection of data members(Variables) and member functions(Methods).
+
+class className{
+     int a;
+     void one(){
+       }       
+}
+
+
+     classname object_name = new classname();  // Object Creation
