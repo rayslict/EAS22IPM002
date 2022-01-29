@@ -1,0 +1,4 @@
+@Component is an annotation that allows Spring to automatically detect our custom beans. In other words, without having to write any explicit code, Spring will: Scan our application for classes annotated with @Component. Instantiate them and inject any specified dependencies into them.
+
+Annotating a class with the @Configuration indicates that the class can be used by the Spring IoC container as a source of bean definitions.
+
